@@ -1,16 +1,57 @@
-# React + Vite
+## Project Title
+AI Resume Analyzer & Candidate Evaluation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Team Information
+**Team Name:** CSE4204-8C-T04  
+**Section:** 8C  
+**Team Leader:** Shaik Taz Uddin (ID: 11220320925)  
+**Members:**  
+- MD Sakib Al Hasan (ID: 11220320926)  
+- Jarin Tasnim (ID: 11220320930)  
+- Md. Junaidul Haque (ID: 11220320932) 
 
-Currently, two official plugins are available:
+**Frontend Repository:** [GitHub Link](https://github.com/shaikTazUddin01/AI-Resume-Analyzer_Frontend.git)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objectives
+- Build a user-friendly interface for Admin/HR to manage jobs and resumes  
+- Allow secure login and dashboard access  
+- Enable resume upload and display candidate analysis  
+- Visualize scores, ranking, and shortlist efficiently  
+- Ensure responsive design across devices  
 
-## React Compiler
+## Features
+- Admin/HR authentication with JWT  
+- Dashboard analytics for candidate evaluation  
+- Job criteria creation interface  
+- Upload single or multiple resumes  
+- View candidate scores, ranking, and shortlist  
+- Responsive and mobile-friendly UI  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technology Stack
+- Frontend: **React.js**  
+- Authentication: **JWT**  
+- API Communication: Axios / Fetch  
+- Optional UI Libraries: Material-UI / TailwindCSS  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+
+
+
+## Repository Structure
+```plaintext
+frontend/
+├── public/              # Static files
+├── src/
+│   ├── components/      # React components
+│   ├── pages/           # Pages like Dashboard, Upload, Job Management
+│   ├── services/        # API call functions
+│   ├── utils/           # Helper functions
+│   ├── App.js
+│   └── index.js
+└── package.json
